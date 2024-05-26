@@ -3,22 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     /* İçeriğin dışarı taşmasını engelleme işlemi */
-
-
 }
 
 body {
-
-    background-image: url(resim.jpg);
+    background-image: url('resim.jpg');
     font-family: sans-serif;
-
 }
 
 .menu-bar {
     background: #5b71b5;
     text-align: center;
     /*Merkeze getirdik yazıları*/
-
 }
 
 .menu-bar ul {
@@ -29,14 +24,12 @@ body {
 }
 
 .menu-bar ul li {
-
     width: 150px;
     margin: 15px;
     padding: 15px;
 }
 
 .menu-bar ul li a {
-
     text-decoration: none;
     /*Linkleri altı çizili yapmama işlemi*/
     color: #fff;
@@ -50,8 +43,6 @@ body {
 
 .menu-bar .fas {
     margin-right: 8px;
-
-
 }
 
 .sub-menu-1 {
@@ -62,11 +53,9 @@ body {
     margin-left: -15px;
     background: #5b71b5;
     border-radius: 0 0 10px 10px; */
-
 }
 
 .menu-bar ul li:hover .sub-menu-1 {
-
     display: block;
     position: absolute;
     /*Olduğu yeri kapsadır*/
@@ -79,8 +68,6 @@ body {
 .menu-bar ul li:hover .sub-menu-1 ul {
     display: block;
     /*Alt alta getirir satır halinde */
-
-
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li {
@@ -95,15 +82,56 @@ body {
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li:hover {
-
     color: #b2ff00;
-
 }
 
 .fa-caret-right {
     font-size: 14px;
     color: #fff;
     float: right;
+}
 
+.sub-menu-2 {
+    display: none;
+    position: absolute;
+}
 
+.menu-bar ul li:hover .sub-menu-1 ul li:hover .sub-menu-2 {
+    display: block;
+    margin-left: 150px;
+    margin-top: -40px;
+    background: #5b71b5;
+    border-radius: 0 10px 10px 10px;
+}
+
+.menu-bar ul li .sub-menu-1,
+.menu-bar ul li .sub-menu-2 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1,
+.menu-bar ul li .hover-me:hover .sub-menu-2 {
+    display: block;
+}
+
+/* İçerik Alanı için Ek Stiller */
+#content-area {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content-area h2 {
+    font-size: 28px;
+    color: #5b71b5;
+    margin-bottom: 15px;
+}
+
+#content-area p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
 }

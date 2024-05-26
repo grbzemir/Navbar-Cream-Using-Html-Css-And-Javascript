@@ -11,61 +11,106 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-
         <div class="menu-bar">
             <ul>
                 <li class="active"><a href="#"><i
                             class="fas fa-home"></i>Anasayfa</a></li>
-                <li class="#"><a href="#"><i
-                            class="fas fa-user"></i>Hakkimizda</a>
-
+                <li><a href="#"><i class="fas fa-user"></i>Hakkimizda</a>
                     <div class="sub-menu-1">
-
                         <ul>
-
-                            <li><a href="#">Misyonumuz</a></li>
-                            <li><a href="#">Vizyonumuz</a></li>
-                            <li><a href="#">Hedeflerimiz</a></li>
-
+                            <li><a href="#" class="submenu-item"
+                                    data-content="misyonumuz">Misyonumuz</a></li>
+                            <li><a href="#" class="submenu-item"
+                                    data-content="vizyonumuz">Vizyonumuz</a></li>
+                            <li><a href="#" class="submenu-item"
+                                    data-content="hedeflerimiz">Hedeflerimiz</a></li>
                         </ul>
-
                     </div>
-
                 </li>
-
                 <li><a href="#"><i class="fas fa-clone"></i>Servisler</a>
                     <div class="sub-menu-1">
-
                         <ul>
-
-                            <li><a href="#">Web Tasarim</a></li>
-                            <li><a href="#">Web Yazilim</a><i
-                                    class="fas fa-caret-right"></i></li>
-                            <div class="sub-menu-2">
-
-                            </div>
-                            <li><a href="#">Mobil Uygulama</a><i
-                                    class="fas fa-caret-right"><li>
-                                        <li><a href="#">E-Ticaret</a></li>
-                                        <li><a href="#">SEO</a></li>
-                                        <li><a href="#">Sosyal Medya</a></li>
+                            <li class="hover-me"><a href="#">Web Tasarim</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">JavaScript</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#"><i
-                                        class="fas fa-users"></i>Müşteriler</a></li>
-                            <li><a href="#"><i
-                                        class="fas fa-headset"></i>Destek</a></li>
-                            <li><a href="#"><i
-                                        class="fas fa-lira-sign"></i>Fiyatlandirma</a></li>
-                            <li><a href="#"><i
-                                        class="fas fa-edit"></i>Eğitim</a></li>
-                            <li><a href="#"><i
-                                        class="fas fa-phone"></i>İletişim</a></li>
-
+                            <li class="hover-me"><a href="#">Web Yazilim</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Back End</a></li>
+                                        <li><a href="#">Front End</a></li>
+                                        <li><a href="#">Full Stack</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover-me"><a href="#">Mobil
+                                    Uygulama</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Android</a></li>
+                                        <li><a href="#">IOS</a></li>
+                                        <li><a href="#">Swift</a></li>
+                                        <li><a href="#">Hybrid</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover-me"><a href="#">E-Ticaret</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Magento</a></li>
+                                        <li><a href="#">Shopify</a></li>
+                                        <li><a href="#">WooCommerce</a></li>
+                                        <li><a href="#">PrestaShop</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover-me"><a href="#">SEO</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">On Page</a></li>
+                                        <li><a href="#">Off Page</a></li>
+                                        <li><a href="#">Technical</a></li>
+                                        <li><a href="#">Local</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover-me"><a href="#">Sosyal Medya</a><i
+                                    class="fas fa-caret-right"></i>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Instagram</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">LinkedIn</a></li>
+                                        <li><a href="#">Github</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
-
                     </div>
+                </li>
+                <li><a href="#"><i class="fas fa-users"></i>Müşteriler</a></li>
+                <li><a href="#"><i class="fas fa-headset"></i>Destek</a></li>
+                <li><a href="#"><i
+                            class="fas fa-lira-sign"></i>Fiyatlandirma</a></li>
+                <li><a href="#"><i class="fas fa-edit"></i>Eğitim</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i>İletişim</a></li>
+            </ul>
+        </div>
 
-                </body>
-            </html>
+        <!-- İçerik Alanı -->
+        <div id="content-area"></div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
