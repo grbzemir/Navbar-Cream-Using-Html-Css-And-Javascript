@@ -53,3 +53,49 @@ body {
 
 
 }
+
+.sub-menu-1 {
+    display: none;
+    /*Alt menüyü gizleme işlemi*/
+    /* position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: #5b71b5;
+    border-radius: 0 0 10px 10px; */
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+
+    display: block;
+    position: absolute;
+    /*Olduğu yeri kapsadır*/
+    background: #5b71b5;
+    margin-top: 15px;
+    margin-left: -15px;
+    /*sağdan sola hizalandı -15 yapınca Normalde soldan sağa hizlama yapar*/
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    /*Alt alta getirir satır halinde */
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    /*Alt çizgiler kesik kesik ekler*/
+    background: transparent;
+    text-align: left;
+    /* border-radius: 0;
+    cursor: pointer; */
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:hover {
+
+    color: #b2ff00;
+
+}
