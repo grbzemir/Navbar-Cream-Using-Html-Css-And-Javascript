@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Başındaki Noktaları Kaldırma işlemi*/
+
+
+}
+
+body {
+
+    background-image: url(resim.jpg);
+    font-family: sans-serif;
+
+}
+
+.menu-bar {
+    background: #5b71b5;
+    text-align: center;
+    /*Merkeze getirdik yazıları*/
+
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    /*Yan yana getirme işlemi*/
+    list-style: none;
+    /*Noktaları kaldırma işlemi*/
+}
+
+.menu-bar ul li {
+
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+
+    text-decoration: none;
+    /*Linkleri altı çizili yapmama işlemi*/
+    color: #fff;
+}
