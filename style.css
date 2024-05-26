@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*Başındaki Noktaları Kaldırma işlemi*/
+    /* İçeriğin dışarı taşmasını engelleme işlemi */
 
 
 }
@@ -40,4 +40,16 @@ body {
     text-decoration: none;
     /*Linkleri altı çizili yapmama işlemi*/
     color: #fff;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #d4c99d;
+    border-radius: 100px;
+}
+
+.menu-bar .fas {
+    margin-right: 8px;
+
+
 }
