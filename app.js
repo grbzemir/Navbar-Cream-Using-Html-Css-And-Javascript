@@ -169,3 +169,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+// const subMenuItems = document.querySelectorAll(".hover-me");
+// subMenuItems.forEach(item => {
+//     item.addEventListener("mouseenter", function () {
+//         let submenu = this.querySelector(".sub-menu-2");
+//         if (submenu) {
+//             submenu.style.display = "block";
+//         }
+//     });
+
+//     item.addEventListener("mouseleave", function () {
+//         let submenu = this.querySelector(".sub-menu-2");
+//         if (submenu) {
+//             submenu.style.display = "none";
+//         }
+//     });
+// });
