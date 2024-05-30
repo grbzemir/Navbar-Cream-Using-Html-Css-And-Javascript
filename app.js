@@ -187,3 +187,99 @@ document.addEventListener("DOMContentLoaded", function () {
 //         }
 //     });
 // });
+
+
+// const subMenuItems = document.querySelectorAll(".hover-me");
+// subMenuItems.forEach(item => {
+//     item.addEventListener("mouseenter", function () {
+//         let submenu = this.querySelector(".sub-menu-2");
+//         if (submenu) {
+//             submenu.style.display = "block";
+//         }
+//     });
+
+//     item.addEventListener("mouseleave", function () {
+//         let submenu = this.querySelector(".sub-menu-2");
+//         if (submenu) {
+//             submenu.style.display = "none";
+//         }
+//     });
+// });
+
+
+
+//JavaScript Kodları Eklenecektir!
+
+/*document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll(".menu-bar ul li");
+    menuItems.forEach(item => {
+        item.addEventListener("mouseenter", function () {
+            let submenu = this.querySelector(".sub-menu-1");
+            if (submenu) {
+                submenu.style.display = "block";
+            }
+        });
+
+        item.addEventListener("mouseleave", function () {
+            let submenu = this.querySelector(".sub-menu-1");
+            if (submenu) {
+                submenu.style.display = "none";
+            }
+        });
+    });
+
+    const subMenuItems = document.querySelectorAll(".hover-me");
+    subMenuItems.forEach(item => {
+        item.addEventListener("mouseenter", function () {
+            let submenu = this.querySelector(".sub-menu-2");
+            if (submenu) {
+                submenu.style.display = "block";
+            }
+        });
+
+        item.addEventListener("mouseleave", function () {
+            let submenu = this.querySelector(".sub-menu-2");
+            if (submenu) {
+                submenu.style.display = "none";
+            }
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll(".menu-bar ul li");
+    menuItems.forEach(item => {
+        item.addEventListener("mouseenter", function () {
+            let submenu = this.querySelector(".sub-menu-1");
+            if (submenu) {
+                submenu.style.display = "block";
+            }
+        });
+
+        item.addEventListener("mouseleave", function () {
+            let submenu = this.querySelector(".sub-menu-1");
+            if (submenu) {
+                submenu.style.display = "none";
+            }
+        });
+    });
+
+    const subMenuItems = document.querySelectorAll(".hover-me");
+    subMenuItems.forEach(item => {
+        item.addEventListener("mouseenter", function () {
+            let submenu = this.querySelector(".sub-menu-2");
+            if (submenu) {
+                submenu.style.display = "block";
+            }
+        });
+
+        item.addEventListener("mouseleave", function () {
+            let submenu = this.querySelector(".sub-menu-2");
+            if (submenu) {
+                submenu.style.display = "none";
+            }
+        });
+    });
+
+    */
